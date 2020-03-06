@@ -26,15 +26,6 @@ const Navbar = () => (
                 </li>
             </ul>
         </nav>
-        <style jsx>{`
-            ul {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                width: 100%;
-                list-style-type: none;
-            }
-        `}</style>
     </>
 )
 
