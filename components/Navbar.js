@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Navbar = () => (
     <>
-        <nav>
+        <nav className="side-nav">
             <ul>
                 <li>
                     <Link href="/">

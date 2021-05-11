@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Header from './Header'
 
 const Layout = ({title, children}) => (
-    <main>
+    <main className="container">
         <Header title={title}/>
         <Navbar />
         {children}

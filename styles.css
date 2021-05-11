@@ -1,7 +1,100 @@
-nav ul {
+/* body {
+    background-color: #2A2A2B;
+}
+
+
+.container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-    list-style-type: none;
+    align-items: center;
+    margin: auto 25vw auto 25vw;
+    height: 100vh;
+} 
+
+h1 {
+    font-size: 2em;
+}
+
+.title {
+    color: #08FDD8;
+    text-shadow: 1px 2px #FC0B56;
+}
+
+button {
+    background: transparent;
+    border: 2px solid #08FDD8;
+    border-radius: 6px;
+    font-size: .65em;
+    color: #08FDD8;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.title:hover {
+    animation: wiggle 0.82s cubic-bezier(.35, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+/*----Nav----*/
+
+/* .side-nav {
+    height: 100%;
+    width: 110px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1E1E1E;
+    overflow-x: hidden;
+    padding-top: 20px;
+    grid-column: 1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.side-nav a {
+    padding: 8px 10px 8px 16px;
+    text-decoration: none;
+    font-size: 1.05em;
+    color: #f1f1f1;
+    display: block;
+    text-transform: uppercase;
+}
+
+.side-nav a:hover {
+    color: #08FDD8;
+} */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 10% auto auto;
+    grid-template-rows: auto;
+}
+
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
