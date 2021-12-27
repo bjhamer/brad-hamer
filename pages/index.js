@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 
 const Home = () => (
   <Layout title="Home">
-    <section>
+    {/* <section>
       <h1>Hi, </h1>
       <h1>I'm <span className="title">Brad</span></h1>
       <h1>Web Designer</h1>
@@ -12,7 +12,8 @@ const Home = () => (
       <Link href="/contact">
         <a>Contact Me</a>
       </Link>
-    </section>
+    </section> */}
+    <h1>This site is currently under construction</h1>
   </Layout>
 )
 

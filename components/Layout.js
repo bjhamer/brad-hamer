@@ -5,8 +5,9 @@ import Header from './Header'
 const Layout = ({title, children}) => (
     <main className="container">
         <Header title={title}/>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
+        <p>Please check back later</p>
     </main>
 )
 
